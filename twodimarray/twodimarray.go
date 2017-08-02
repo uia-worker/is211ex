@@ -1,6 +1,7 @@
-package ds2darray
+package twodimarray
 
-func populate() {
+// Populate a slice of slices (of type integer)
+func Populate() [][]int {
 
 	// A table representing customer evaluation
 	// Table connects customers to products
@@ -18,5 +19,7 @@ func populate() {
 	product_evaluation = append(product_evaluation, customer2)
 	product_evaluation = append(product_evaluation, customer3)
 	product_evaluation = append(product_evaluation, customer4)
+
+	return product_evaluation
 
 }
